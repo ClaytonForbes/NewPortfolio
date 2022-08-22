@@ -11,6 +11,9 @@ html {
     box-sizing: inherit;
 }
 
+
+
+
 body{
     color: black;
     margin: 0;
@@ -38,7 +41,28 @@ h1{
  a{
      color: blue;
  }
+
+.NAV{
+
+    text-align: center;
+    background-color:aquamarine;
+}
+
+.Nav{
+    display: none;
+}
+
+#close{
+    display: none;
+}
  
+ 
+ ul{
+    background-color: rgb(43, 42, 42);
+    padding: 0%;
+    margin-top: 0;                                                                                                                        
+
+ }
 
  a:hover{
      text-decoration: none;
@@ -92,7 +116,9 @@ header{
 }
 
 
-
+#ele{
+    display: block;
+}
 
 /*Projects styles:*/
 .Projects{
@@ -123,6 +149,10 @@ header{
 
 
 
+.LPhoto{
+    width: 900px;
+    padding-left: 30px;
+}
 
 
 
@@ -139,7 +169,7 @@ header{
 
 /*Education  styles:*/
 .Education {
-    background-image:url(../Images/Education.jpg) ;
+    background-image:url(../NewPortfolio/Images/Education.jpg); 
     background-size: cover;
     background-position: top right;
     padding-bottom: 50px;
