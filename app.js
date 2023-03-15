@@ -10,10 +10,15 @@ const test =document.getElementById("test");
 
 // show the navigation tabs
 const show = () => {
+<<<<<<< HEAD
  nav.style.display= "block";
  test.style.width="390px";
  
  closed.style.display ="block";
+=======
+nav.style.display= "block";
+closed.style.display ="block";
+>>>>>>> origin
 }
 
 //close the navagation tab
@@ -23,6 +28,10 @@ const noshow = () => {
 }
 
 
+<<<<<<< HEAD
 // call the navigaton functions
+=======
+// call the navagaton functions
+>>>>>>> origin
 ele.onclick = show;
 closed.addEventListener("click", noshow);

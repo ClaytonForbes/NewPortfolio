@@ -59,6 +59,7 @@ h1{
 .NAV{
 
     text-align: center;
+<<<<<<< HEAD
     /* background-color:grey; */
     /* position: fixed; */
     width: 100%;
@@ -72,6 +73,9 @@ h1{
     color: rgb(42, 44, 44);
     font-size: 80px;
     position: fixed;
+=======
+    background-color:grey;
+>>>>>>> origin
 }
 
 .Nav{
@@ -157,7 +161,14 @@ header{
 }
 
 
+<<<<<<< HEAD
 
+=======
+#ele{
+    display: block;
+    margin:0;
+}
+>>>>>>> origin
 
 /*Projects styles:*/
 .Projects{
