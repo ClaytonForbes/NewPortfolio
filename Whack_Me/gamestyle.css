@@ -1,0 +1,20 @@
+.grid{
+    width:610px;
+    height: 606px;
+    display:flex;
+    flex-wrap: wrap;/* this is use to fix all of the box in the grid  */
+}
+
+.square{
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    /*or 
+     border: solid black 1px; */
+}
+
+.mole{
+    background-color:  blue;
+}
