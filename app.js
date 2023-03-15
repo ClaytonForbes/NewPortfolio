@@ -11,6 +11,7 @@ const test =document.getElementById("test");
 // show the navigation tabs
 const show = () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
  nav.style.display= "block";
  test.style.width="390px";
  
@@ -19,6 +20,10 @@ const show = () => {
 nav.style.display= "block";
 closed.style.display ="block";
 >>>>>>> origin
+=======
+nav.style.display= "block";
+closed.style.display ="block";
+>>>>>>> 78a6cc658d16ee0d485dd85400c7b157a97ed601
 }
 
 //close the navagation tab
@@ -29,9 +34,13 @@ const noshow = () => {
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // call the navigaton functions
 =======
 // call the navagaton functions
 >>>>>>> origin
+=======
+// call the navagaton functions
+>>>>>>> 78a6cc658d16ee0d485dd85400c7b157a97ed601
 ele.onclick = show;
 closed.addEventListener("click", noshow);
