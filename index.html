@@ -9,11 +9,10 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
   </head>
   <body>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <div class="NAV">
-      <p id="ele">Click for Navigation</p>
-      <p id="close">Close Nav</p>
-
+      <p id="ele">&#9776</p>
+      <!-- <p id="close">Close Nav</p> -->
     </div>
    
     <main>
@@ -21,7 +20,8 @@
       <header>
          <!-- ***********************  Navagtion  *********************** -->
       <div class="Nav" id="Top">
-        <ul >
+        <ul class="navlist" id="test">
+          <a href="" id="close">&times</a>
           <li><a href="#Bio">BIO</a></li>
          <li><a href="#Proj" >Projects</a></li>
           <li><a href="#work" >Work History</a></li>
@@ -29,23 +29,25 @@
           <li><a href="#Cont">Contact</a></li>
         </ul>
       </div>
-      <!-- <video autoplay muted loop id="background-video">
-        <source src="../NewPortfolio/Images/WaterVid.jpeg" type="video/mp4">
-        <h1>Test</h1>
-  
-      </video> -->
-      <img  class="LPhoto" src="Images/WaterVid.gif" alt="gif">
-  
+    
         <div class="context-wrap" id="Bio">
-        <h1><img src="Images/Profile_pic.jpg" alt="Web_page">Clayton Forbes </h1>
+        <h1><img src="Images/Profile_pic.jpg" alt="Web_page"><span id="word">Clayton Forbes</span></h1>
+        <!-- <div id="Title">JR-Software-Developer</div> -->
+        
+        <!-- <div id="word">MyTest</div> -->
+   <h2 id="Title">Software-Developer</h2>
         
         
-        <h2>Computer Technian-JR Developer</h2>
+        <!-- <h2 class="ml2">JR-Web-Developer</h2> -->
 
-        <p>I am a young IT technician who's experience in computer hardware, software, and networking. I am currently a student now leaning how to program in various languages, and all though it is my first time I learn pretty quick, both in school and in my field. I am a hard worker who embrace challenges, because it gives more experience and knowledge about my skills and picking up new ones. I am human, and I know that I won't know everything and will ask a lot of questions but, I am an honest and a hard working individual who won't stop , or shy away from a new opportunity.</p>
-        <p>Add another paragraph if needed. </p>
+        <p>Hello My Name is Clayton Forbes, a young Web Developer with a background in computer systems and network infrastructue. 
+          My background in IT has given me a good foundation for web devlopment and building complex solutions and fixing them. 
+          I recently granduated from Fanshawe College from the Computer Programming courese (CPA2).
+          I am passionate about coding and solving problems through code, 
+          and I am excited to work alongside other amazing programmers and learn so much more!</p>
+
         <div class="Top-link">
-        <a href="#Top" target="_blank">Back to the top</a>
+        <!-- <a href="#Top" target="_blank">Back to the top</a> -->
       </div>
       </div>
       </header>
@@ -94,12 +96,12 @@
           <img src="Images/Fill_IN.jpg" alt="Web_page">
           <h3>Whack ME if you can </h3>
           <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
-          <a href="#" target="_blank">View project code</a>
+          <a href="Whack_Me/Game.html" target="_blank">View project code</a>
         </section>
         
         <section class="project-item">
           <img src="Images/Fill_IN.jpg" alt="Web_page">
-          <h3>Whack ME if you can </h3>
+          <h3>Soon </h3>
           <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
           <a href="#" target="_blank">View project code</a>
         </section>
@@ -210,15 +212,17 @@
 
         <!-- Social media and contact links. Add or remove any networks. -->
         <ul class="contact-list">
-          <li><a href="mailto:101clay@live.com@">Email</a></li>
-          <li><a href="https://github.com/ClaytonForbes" target="#">Git_Hub</a></li>
-          <li><a href="https://www.linkedin.com/in/clayton-forbes-1038a61a4/" target="_blank">LinkedIn</a></li>
-          <li><a href="https://www.facebook.com/101bossclay" target="#">Facebook</a></li>
+          <li><a href="mailto:101clay@live.com@"><i class="fa-brands fa-stack-exchange"></i></a></li>
+          <li><a href="https://github.com/ClaytonForbes"><i class="fa-brands fa-github-square" style="--fa-beat-scale: 2.0;"></i></a></li>
+          <li><a  target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+          <li><a href="https://www.facebook.com/101bossclay" target="#"><i class="fa-brands fa-facebook"></i></a></li>
         </ul>
         </div>
         <a href="#Top" target="_blank">Back to the top</a>
       </footer>
     </main>
     <script src="app.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/796f02b2b7.js" crossorigin="anonymous"></script> -->
+
   </body>
 </html>
