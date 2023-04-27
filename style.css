@@ -20,6 +20,10 @@ body{
     line-height: 1.5;
 
 } 
+
+header{
+    padding-bottom: 200;
+}
 p{
     font-size: 20px;
 }
@@ -59,8 +63,7 @@ h1{
 .NAV{
 
     text-align: center;
-<<<<<<< HEAD
-<<<<<<< HEAD
+
     /* background-color:grey; */
     /* position: fixed; */
     width: 100%;
@@ -74,12 +77,11 @@ h1{
     color: rgb(42, 44, 44);
     font-size: 80px;
     position: fixed;
-=======
-    background-color:grey;
->>>>>>> origin
-=======
-    background-color:grey;
->>>>>>> 78a6cc658d16ee0d485dd85400c7b157a97ed601
+
+    /* background-color:grey;
+
+    background-color:grey; */
+
 }
 
 .Nav{
@@ -131,7 +133,7 @@ h1{
      max-width: 900px;
      width:85%;
      margin:0 auto ;
-     padding: 150px 0;
+     padding: 200px 0;
    
  }
   h3{
@@ -165,14 +167,12 @@ header{
 }
 
 
-<<<<<<< HEAD
 
-=======
 #ele{
     display: block;
     margin:0;
 }
->>>>>>> origin
+
 
 /*Projects styles:*/
 .Projects{
@@ -248,6 +248,7 @@ footer{
 .contact-list{
     list-style-type: none;
     padding:0;
+    background-color:black;
    
 }
 .contact-list a{
@@ -255,6 +256,10 @@ footer{
     display: inline-block;
 }
 
+.contact-lista:hover{
+    background-color: #F7FFF7;
+    color: #cf0404;
+}
 
 
 .project-item{
@@ -291,6 +296,49 @@ footer{
      padding: 60px, 0px;
      background-color: rgb(221, 230, 233);
  }
+
+
+ .ml2 {
+    font-weight: 900;
+    font-size: 3.5em;
+  }
+  
+  .ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+
+#word{
+    font-size: 50px;
+    text-align: center;
+}
+
+#Title{
+    font-size: 48px;
+    text-align: center
+}
+
+  
+
+
+
+
+
+
+
+/* test */
+
+
+ 
+  
+
+/* end */
+
+
+
+
+
  
  
   
