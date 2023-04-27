@@ -1,20 +1,29 @@
-.grid{
-    width:610px;
-    height: 606px;
-    display:flex;
-    flex-wrap: wrap;/* this is use to fix all of the box in the grid  */
+body{
+    /* background-image: url("/NewPortfolio/Images/whackamole-background.jpg"); */
+    background-image: url("/Images/whackamole-background.jpg");
+    transform: translate(50);
+    
 }
+ .ScoreB{
+    text-align: center;
+ }
 
-.square{
-    width: 200px;
-    height: 200px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-    /*or 
-     border: solid black 1px; */
-}
 
-.mole{
-    background-color:  blue;
-}
+    .grid {
+        width: 606px;
+        height: 606px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 600px;
+    }
+    
+    .square {
+        height: 200px;
+        width: 200px;
+        border: solid black 1px;
+    }
+    
+    .mole {
+        /* background-image: url("/NewPortfolio/Images/mole.png"); */
+        background-image: url("/Images/mole.png");
+    }
