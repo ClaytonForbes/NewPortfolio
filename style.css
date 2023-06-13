@@ -21,6 +21,7 @@ body{
 
 } 
 
+<<<<<<< HEAD
 
 #KCF{
     height:400px;
@@ -156,6 +157,8 @@ body{
 
 
 
+=======
+>>>>>>> d5eb116bd5d5fd50ef9be0a466ef0378affa9c84
 header{
     padding-bottom: 200;
 }
@@ -303,6 +306,10 @@ header{
 }
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> d5eb116bd5d5fd50ef9be0a466ef0378affa9c84
 #ele{
     display: block;
     margin:0;
@@ -387,7 +394,10 @@ footer{
     list-style-type: none;
     padding:0;
     background-color:black;
+<<<<<<< HEAD
    
+=======
+>>>>>>> d5eb116bd5d5fd50ef9be0a466ef0378affa9c84
    
 }
 .contact-list a{
@@ -396,6 +406,7 @@ footer{
    
 }
 
+<<<<<<< HEAD
 #WolfL{
     width: 100px;
     height: 100px;
@@ -403,6 +414,8 @@ footer{
     margin-top: 100px;
 }
 
+=======
+>>>>>>> d5eb116bd5d5fd50ef9be0a466ef0378affa9c84
 .contact-lista:hover{
     background-color: #F7FFF7;
     color: #cf0404;

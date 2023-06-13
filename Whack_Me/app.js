@@ -47,4 +47,8 @@ function countDown() {
 
 }
 
+<<<<<<< HEAD
 let countDownTimerId = setInterval(countDown, 1000)
+=======
+let countDownTimerId = setInterval(countDown, 1000)
+>>>>>>> d5eb116bd5d5fd50ef9be0a466ef0378affa9c84
