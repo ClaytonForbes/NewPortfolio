@@ -20,6 +20,145 @@ body{
     line-height: 1.5;
 
 } 
+
+
+#KCF{
+    height:400px;
+    margin-left: 150px;
+    margin-top: 100px;
+    width: 600px;
+
+    
+}
+
+#contactH1{
+    margin-bottom: 30px;
+}
+
+.form-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-container h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="tel"],
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-group input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-group input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .form-group input[type="submit"]:focus {
+    outline: none;
+    background-color: #3e8e41;
+  }
+
+#Psum{
+    color: white;
+}
+
+#Title{
+    color:white;
+
+}
+
+#word{
+    color:white;
+}
+
+.skill-flex{
+    display: flex;
+    flex-wrap:wrap;
+ 
+}
+
+.skill-container > div{
+    width: 100px;
+    text-align: center;
+    margin: 10px;
+    height: 100px;
+
+}
+
+.item{
+    flex-basis:20%;
+    height: 100px;
+    width: auto;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+ .skill-header{
+    text-align: center;
+  
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: grey; */
+    width: 1200px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 300px;
+ 
+
+  }
+
+  .flex-container > div {
+    /* background-color: #f1f1f1; */
+    width: 100px;
+    margin: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  .item{
+    height: 100px;
+    width: 100px;
+  }
+
+
+
+header{
+    padding-bottom: 200;
+}
 p{
     font-size: 20px;
 }
@@ -59,8 +198,7 @@ h1{
 .NAV{
 
     text-align: center;
-<<<<<<< HEAD
-<<<<<<< HEAD
+
     /* background-color:grey; */
     /* position: fixed; */
     width: 100%;
@@ -74,12 +212,11 @@ h1{
     color: rgb(42, 44, 44);
     font-size: 80px;
     position: fixed;
-=======
-    background-color:grey;
->>>>>>> origin
-=======
-    background-color:grey;
->>>>>>> 78a6cc658d16ee0d485dd85400c7b157a97ed601
+
+    /* background-color:grey;
+
+    background-color:grey; */
+
 }
 
 .Nav{
@@ -90,6 +227,7 @@ h1{
 #close{
     display: none;
     margin: 0;
+    text-align: right;
 }
  
 .navlist{
@@ -131,7 +269,7 @@ h1{
      max-width: 900px;
      width:85%;
      margin:0 auto ;
-     padding: 150px 0;
+     padding: 200px 0;
    
  }
   h3{
@@ -165,14 +303,11 @@ header{
 }
 
 
-<<<<<<< HEAD
-
-=======
 #ele{
     display: block;
     margin:0;
 }
->>>>>>> origin
+
 
 /*Projects styles:*/
 .Projects{
@@ -213,6 +348,9 @@ header{
 /*Work Experience styles:*/
 .Work_EXP{
     background: rgb(192, 199, 240);
+    background-image: url('Images/Background-Skillphoto');
+    background-size: cover;
+    background-position: center;
    
 }
 
@@ -221,15 +359,15 @@ header{
 
 
 
-/*Education  styles:*/
-.Education {
+/*Contact  styles:*/
+.Contact {
     background-image:url(../NewPortfolio/Images/Education.jpg); 
     background-size: cover;
     background-position: top right;
     padding-bottom: 50px;
  
 }
-.Education a {
+.Contact a {
     width: 60%;
 }
 
@@ -248,13 +386,27 @@ footer{
 .contact-list{
     list-style-type: none;
     padding:0;
+    background-color:black;
+   
    
 }
 .contact-list a{
     padding:15px ;
     display: inline-block;
+   
 }
 
+#WolfL{
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+
+.contact-lista:hover{
+    background-color: #F7FFF7;
+    color: #cf0404;
+}
 
 
 .project-item{
@@ -283,6 +435,7 @@ footer{
  }
  .Nav li a{
      text-decoration: none;
+     display: block;
  }
 
 
@@ -291,6 +444,49 @@ footer{
      padding: 60px, 0px;
      background-color: rgb(221, 230, 233);
  }
+
+
+ .ml2 {
+    font-weight: 900;
+    font-size: 3.5em;
+  }
+  
+  .ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+
+#word{
+    font-size: 50px;
+    text-align: center;
+}
+
+#Title{
+    font-size: 48px;
+    text-align: center
+}
+
+  
+
+
+
+
+
+
+
+/* test */
+
+
+ 
+  
+
+/* end */
+
+
+
+
+
  
  
   

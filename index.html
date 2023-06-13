@@ -5,15 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clayton Forbes PORTFOLIO</title>
       <link rel="stylesheet" href="style.css">
-   
       <link rel="preconnect" href="https://fonts.googleapis.com">
   </head>
   <body>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <div class="NAV">
-      <p id="ele">Click for Navigation</p>
-      <p id="close">Close Nav</p>
-
+      <p id="ele">&#9776</p>
+      <!-- <p id="close">Close Nav</p> -->
     </div>
    
     <main>
@@ -21,31 +19,34 @@
       <header>
          <!-- ***********************  Navagtion  *********************** -->
       <div class="Nav" id="Top">
-        <ul >
+        <ul class="navlist" id="test">
+          <a  id="close">&times</a>
           <li><a href="#Bio">BIO</a></li>
          <li><a href="#Proj" >Projects</a></li>
           <li><a href="#work" >Work History</a></li>
-          <li><a href="#Ed">Education</a></li>
-          <li><a href="#Cont">Contact</a></li>
+          <li><a href="#Ed">Contact</a></li>
+          <li><a href="#Cont">Social Hit Up!</a></li>
         </ul>
       </div>
-      <!-- <video autoplay muted loop id="background-video">
-        <source src="../NewPortfolio/Images/WaterVid.jpeg" type="video/mp4">
-        <h1>Test</h1>
-  
-      </video> -->
-      <img  class="LPhoto" src="Images/WaterVid.gif" alt="gif">
-  
+    
         <div class="context-wrap" id="Bio">
-        <h1><img src="Images/Profile_pic.jpg" alt="Web_page">Clayton Forbes </h1>
+        <h1><img src="Images/Profile2.jpg" alt="Web_page"><span id="word">Clayton Forbes</span></h1>
+        <!-- <div id="Title">JR-Software-Developer</div> -->
+        
+        <!-- <div id="word">MyTest</div> -->
+   <h2 id="Title">Software-Developer</h2>
         
         
-        <h2>Computer Technian-JR Developer</h2>
+        <!-- <h2 class="ml2">JR-Web-Developer</h2> -->
 
-        <p>I am a young IT technician who's experience in computer hardware, software, and networking. I am currently a student now leaning how to program in various languages, and all though it is my first time I learn pretty quick, both in school and in my field. I am a hard worker who embrace challenges, because it gives more experience and knowledge about my skills and picking up new ones. I am human, and I know that I won't know everything and will ask a lot of questions but, I am an honest and a hard working individual who won't stop , or shy away from a new opportunity.</p>
-        <p>Add another paragraph if needed. </p>
+        <p id="Psum">Hello My Name is Clayton Forbes, a young Web Developer with a background in computer systems and network infrastructue. 
+          My background in IT has given me a good foundation for web devlopment and building complex solutions and fixing them. 
+          I recently granduated from Fanshawe College from the Computer Programming courese (CPA2).
+          I am passionate about coding and solving problems through code, 
+          and I am excited to work alongside other amazing programmers and learn so much more!</p>
+
         <div class="Top-link">
-        <a href="#Top" target="_blank">Back to the top</a>
+        <!-- <a href="#Top" target="_blank">Back to the top</a> -->
       </div>
       </div>
       </header>
@@ -63,7 +64,7 @@
         
 
         <section class="project-item">
-          <img src="Images/Proj2.PNG" alt="Web_page">
+          <img src="Images/Wolf.PNG" alt="Web_page">
           <h3>Memory Game</h3>
           <p>This is a small game that tests you memory. Correctly match the photos together and win the game.</p>
           <a href="Memory-Game/Webpage.html" target="_blank">View project </a>
@@ -79,28 +80,28 @@
         <section class="project-item">
           <img src="Images/Proj3.PNG" alt="Web_page">
           <h3>To-do-List(Rect)</h3>
-          <p>This is a group project that I made and lead with my classmates to bulit a To-Do-App using React</p>
+          <p>This is a project that I made to better oraganzie your task, a To-Do-App using React</p>
           <a href="https://github.com/ClaytonForbes/Todo_Project" target="_blank">Git_Hub</a>
         </section>
         
         <section class="project-item">
-          <img src="Images/Proj4.PNG" alt="Web_page">
-          <h3>To-DO-List</h3>
-          <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
+          <img src="Images/Sim.PNG" alt="Web_page">
+          <h3>Covid-Simulator</h3>
+          <p>This is a Project use to simulate Covid being spread throughout a certain area</p>
           <a href="https://github.com/ClaytonForbes/Sim_Covid" target="_blank">Git_Hub</a>
         </section>
         
         <section class="project-item">
-          <img src="Images/Fill_IN.jpg" alt="Web_page">
+          <img src="Images/mole.png" alt="Web_page">
           <h3>Whack ME if you can </h3>
-          <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
-          <a href="#" target="_blank">View project code</a>
+          <p>This is a simply JavaScript game where you click on the photo (mole) as much times as you can before  the time runs out </p>
+          <a href="Whack_Me/Game.html" target="_blank">View project code</a>
         </section>
         
         <section class="project-item">
           <img src="Images/Fill_IN.jpg" alt="Web_page">
-          <h3>Whack ME if you can </h3>
-          <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
+          <h3>Chat App</h3>
+          <p>This is a project done in school to create a simple chat app session</p>
           <a href="#" target="_blank">View project code</a>
         </section>
         
@@ -110,98 +111,96 @@
         <!-- End of Project block. -->
         
       </section>
+
+
+
      
 
       <!-- ***********************  WORK EXPERIENCE  *********************** -->
       <section class="Work_EXP" id="work">
-        <div class="context-wrap item-details divider">
-        <h2>Work Experience</h2>
-        <p>Optional paragraph for work experience summary. Not a part of the job details. Delete if not being used.</p>
+        <H2>Skills</H2>
+      
+          <div class="flex-container">
+            <div><img class="item" src="Images/htmlp.jpg" alt="HTMl"></div>
+            <div><img class="item" src="Images/CSSIcon.png" alt="CSS"></div>
+            <div><img class="item" src="Images/JavaScrpIcon" alt="JavaScript"></div>
+            <div><img class="item" src="Images/JavaIcon.png" alt="JAVA"></div>
+            <div><img class="item" src="Images/ReactIcon" alt="React"></div>
+            <div><img class="item" src="Images/CompTIA_A+.png" alt="ComptiaA+"></div>
+            <div><img class="item" src="Images/comptia-networkicon.png" alt="ComptiaNetwork+"></div>
+            <div><img class="item" src="Images/mysql-icon.webp" alt="MySQL"></div>
+            <div><img class="item" src="Images/Firebase.png" alt="FireBase"></div>
+            <div><img class="item" src="Images/GitHub-logo.png" alt="GitHUB"></div>
+          </div>
 
-        <!-- Copy this whole <section> block to add more jobs. -->
-        <section class="job-item">
-          <div class="job-details">
-            <h3>Job title</h3>
-            <p>Company Name</p>
-            <p>Date at job</p>
-          </div>
-          <div class="job-summary">
-            <p>Job summary goes here. Add as many paragraphs as you need.</p>
-            <p>Optional list:</p>
-            <ul>
-              <li>Delete this list if you don't need it.</li>
-              <li>Created...</li>
-              <li>Lead...</li>
-              <li>Responsible for...</li>
-            </ul>
-          </div>
-        </section>
-
-        <section class="job-item">
-          <div class="job-details">
-            <h3>Job title</h3>
-            <p>Company Name</p>
-            <p>Date at job</p>
-          </div>
-          <div class="job-summary">
-            <p>Job summary goes here. Add as many paragraphs as you need.</p>
-            <p>Optional list:</p>
-            <ul>
-              <li>Delete this list if you don't need it.</li>
-              <li>Created...</li>
-              <li>Lead...</li>
-              <li>Responsible for...</li>
-            </ul>
-          </div>
-        </section>
-
-        <section class="job-item">
-          <div class="job-details">
-            <h3>Job title</h3>
-            <p>Company Name</p>
-            <p>Date at job</p>
-          </div>
-          <div class="job-summary">
-            <p>Job summary goes here. Add as many paragraphs as you need.</p>
-            <p>Optional list:</p>
-            <ul>
-              <li>Delete this list if you don't need it.</li>
-              <li>Created...</li>
-              <li>Lead...</li>
-              <li>Responsible for...</li>
-            </ul>
-          </div>
-        </section>
-      </div>
-        <!-- End of Job block. -->
-        <a href="#Top" target="_blank">Back to the top</a>
+          <div class="skill-button">
+          <a href="#Top" target="_blank">Back to the top</a>
+        </div>
       </section>
 
-      <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
-      <section class="Education">
+
+
+
+
+
+
+
+
+
+
+
+      <!-- ******************  Contact  ****************** -->
+      <section class="Contact">
         <div class="context-wrap item-details" id="Ed">
-        <h2>Education</h2>
+        <h2 id="contactH1">Contact Me</h2>
 
         <!-- Copy this whole <section> block to add more schools. -->
         <section >
-          <div class="context-wrap">
+          <!-- <div class="context-wrap">
           <h3>BTVI(Bahamas Technical Vocational Institution ) - Nassau-Bahmas</h3>
           <p>(Degree)Computer Science Accociate Degree - (Area) Information Technology-(Year attended) 2015-2018</p>
-          <p>Summary or accomplishments.</p>
+          <p>Summary or accomplishments.</p> -->
+          <div class="form-container">
+            <h2 id="contactH2">Contact Information </h2>
+            <form>
+              <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+              </div>
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="notes">Notes:</label>
+                <textarea id="notes" name="notes" rows="4"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Submit" class="custom-button">
+              </div>
+            </form>
           
         </section>
         <section >
-          <div class="context-wrap">
+          <!-- <div class="context-wrap">
           <h3>Fanshawe College - Canada-London</h3>
           <p>Designation received or program name, year attended</p>
-          <p>Summary or accomplishments.</p>
+          <p>Summary or accomplishments.</p> -->
+          <img id="KCF" src="Images/US.jpg" alt="KCF">
           
         </section>
       </div>
-        <!-- End of School block. -->
+        
         
         <a href="#Top" target="_blank">Back to the top</a>
       </section>
+
+
+
 
       <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
       <footer>
@@ -210,15 +209,17 @@
 
         <!-- Social media and contact links. Add or remove any networks. -->
         <ul class="contact-list">
-          <li><a href="mailto:101clay@live.com@">Email</a></li>
-          <li><a href="https://github.com/ClaytonForbes" target="#">Git_Hub</a></li>
-          <li><a href="https://www.linkedin.com/in/clayton-forbes-1038a61a4/" target="_blank">LinkedIn</a></li>
-          <li><a href="https://www.facebook.com/101bossclay" target="#">Facebook</a></li>
+          <li><a href="mailto:101clay@live.com@"><i class="fa-brands fa-stack-exchange"></i></a> <img id="WolfL" src="Images/mail.jpg" alt="mail"></li>
+          <li><a href="https://github.com/ClaytonForbes"><i class="fa-brands fa-github-square" style="--fa-beat-scale: 2.0;"></i></a><img id="WolfL" src="Images/GitHub-Mark.png" alt="mail"></li>
+          <li><a  target="_blank"><i class="fa-brands fa-linkedin"></i></a><img id="WolfL" src="Images/linkedin-icon-2048x2048-ya5g47j2.png" alt="mail"></li>
+
         </ul>
         </div>
         <a href="#Top" target="_blank">Back to the top</a>
       </footer>
     </main>
     <script src="app.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/796f02b2b7.js" crossorigin="anonymous"></script> -->
+
   </body>
 </html>
